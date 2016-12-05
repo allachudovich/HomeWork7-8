@@ -1,0 +1,34 @@
+@media (min-width: 960px) {
+    .wrapper {
+        width: 935px;
+    }
+    .main-logo {
+        float: left;
+        margin-left: 0;
+    }
+    .article__left--block_news {
+        margin-left: -3px;
+        margin-top: 88px;
+        width: 450px;
+        background: url(../img/article.png) 3px 12px no-repeat;
+    }
+    .head {
+        position: relative;
+        overflow: hidden;
+        height: 846px;
+    }
+    .menu--top_page{
+      display: block;
+      float: right;
+      margin-top: 73px;
+      width: 80%;
+    }
+    .menu__item--top_page{
+      float: right;
+      margin-right: 0;
+      margin-left: 46px;
+    }
+    .menu__item--first{
+      margin-right: -26px;
+    }
+}

@@ -1,16 +1,34 @@
-header, nav, section, footer {
+header, nav, footer {
     display: block;
 }
 
 .menu--top_page {
-    margin: 0;
     padding: 0;
-    width: 250px;
-    overflow: hidden;
+    display: inline-block;
     float: right;
 }
 
+.menu__item--top_page {
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .slider {
-    height: 846px;
+    width: 100%;
+    height: 400px;
     background: rgba(0, 0, 0, .2);
+}
+
+.info_block {
+  height: 342px;
+  display: block;
+  position: relative;
+  background-image: -webkit-linear-gradient(bottom, #322539, #745083);
+  background-image: -moz-linear-gradient(bottom, #322539, #745083);
+  background-image: -o-linear-gradient(bottom, #322539, #745083);
+  background-image: -ms-linear-gradient(bottom, #322539, #745083);
+  background-image: linear-gradient(to top, #322539, #745083);
+  border-bottom: 1px solid #fff;
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.75), 0px 5px 5px -5px rgba(0, 0, 0, .3);
+  filter: none !important;
 }
